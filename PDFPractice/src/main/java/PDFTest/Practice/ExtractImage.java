@@ -12,6 +12,7 @@ import org.apache.pdfbox.rendering.PDFRenderer;
 public class ExtractImage {
 
 	public static void main(String[] args) throws IOException {
+		//It's in developing stage
 		File file= new File("C:\\Users\\Personal\\Downloads\\sample-pdf-with-images.pdf");
 		PDDocument doc= PDDocument.load(file);
 		
